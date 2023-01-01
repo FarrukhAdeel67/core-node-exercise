@@ -1,0 +1,20 @@
+<html lang='en'>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    </div>
+    <h1> Following are the titles of given websites: </h1>
+    <div >
+      <ul>
+        {{#each outputTitles}}
+          <li>
+            {{@key}}:
+            {{this}}
+            <br />
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </body>
+</html>
